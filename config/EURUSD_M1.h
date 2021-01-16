@@ -7,7 +7,7 @@
 struct Indi_Momentum_Params_M1 : MomentumParams {
   Indi_Momentum_Params_M1() : MomentumParams(indi_momentum_defaults, PERIOD_M1) {
     applied_price = (ENUM_APPLIED_PRICE)0;
-    period = 4;
+    period = -8;
     shift = 0;
   }
 } indi_momentum_m1;
@@ -17,7 +17,7 @@ struct Stg_Momentum_Params_M1 : StgParams {
   // Struct constructor.
   Stg_Momentum_Params_M1() : StgParams(stg_momentum_defaults) {
     lot_size = 0;
-    signal_open_method = -1;
+    signal_open_method = 0;
     signal_open_filter = 1;
     signal_open_level = (float)0.0;
     signal_open_boost = 0;

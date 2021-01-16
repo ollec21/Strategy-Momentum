@@ -7,8 +7,8 @@
 struct Indi_Momentum_Params_M15 : MomentumParams {
   Indi_Momentum_Params_M15() : MomentumParams(indi_momentum_defaults, PERIOD_M15) {
     applied_price = (ENUM_APPLIED_PRICE)1;
-    period = 16;
-    shift = 0;
+    period = 12;
+    shift = 1;
   }
 } indi_momentum_m15;
 
